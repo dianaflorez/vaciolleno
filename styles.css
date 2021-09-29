@@ -525,7 +525,7 @@ header{
   animation-name: appear;
   animation-duration: 3s;
   animation-timing-function: linear;
-  animation-delay: 1.7s;
+  animation-delay: 51.7s;
   animation-fill-mode: forwards;
 }
 
@@ -548,26 +548,28 @@ header{
   animation-name: sorprise;
   animation-duration: 4s;
   animation-timing-function: linear;
-  animation-delay: 5.7s;
+  animation-delay: 55.7s;
   animation-fill-mode: forwards;
 }
 
-@keyframes sorprise {
-  0%{
-    opacity: 0;  
-  }
-  20%{
-    opacity: 1;
-  }
-  100%{
-    opacity: 1;
-  }
-}
-
-
-
-
-
+/*** Scena 7 **/
 .box7 {
   flex-grow: 1;
+}
+
+.pensamiento3 img {
+  height: 390px;
+}
+
+.pensamiento3 {
+  position: absolute;
+  top: 37px;
+  right: 77px;
+  opacity: 0;  
+
+  animation-name: sorprise;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-delay: 1.7s;
+  animation-fill-mode: forwards;
 }
