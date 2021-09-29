@@ -555,6 +555,13 @@ header{
 /*** Scena 7 **/
 .box7 {
   flex-grow: 1;
+  opacity: 0;
+
+  animation-name: appear;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-delay: 58.7s;
+  animation-fill-mode: forwards;
 }
 
 .pensamiento3 img {
@@ -570,6 +577,6 @@ header{
   animation-name: sorprise;
   animation-duration: 4s;
   animation-timing-function: linear;
-  animation-delay: 1.7s;
+  animation-delay: 59.7s;
   animation-fill-mode: forwards;
 }
