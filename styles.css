@@ -9,7 +9,8 @@ html{
 header{
   padding-top: 33px;
   text-align: center;
-  height: 73px;
+  height: 133px;
+  font-size: 3em;
 }
 .container {
   position: relative;
