@@ -51,6 +51,14 @@ header{
   height: 49px;
 }
 
+.box1-mensaje{
+  background: white;
+  border: 2px solid gray ;
+  display: inline-block;
+  font-size: 2em;
+  padding: 7px ;
+}
+
 .monje1 {
   position: absolute;
   opacity: 1;
@@ -58,7 +66,7 @@ header{
   left: 200px;
   
   animation-name: walk;
-  animation-duration: 10s;
+  animation-duration: 11s;
   animation-timing-function: linear;
   animation-delay: 1.7s;
   animation-fill-mode: forwards;  
@@ -85,47 +93,56 @@ header{
     transform: translate(27px, 15px);
     opacity: 1;  
   }
-  40%{
+  35%{
     transform: translate(59px, 30px);
     opacity: 1;  
   }
-  50%{
+  45%{
     transform: translate(47px, 37px);
     opacity: 1;  
   }
   /* segunda bajada */
+  70%{
+    transform: translate(67px, 100px); 
+    opacity: 1;   
+  }
+
+  71%{
+    transform: translate(67px, 100px); 
+    opacity: 0;   
+  }
+  75%{
+    transform: translate(153px, 38px); 
+    opacity: 0;   
+  }
   80%{
-    transform: translate(67px, 100px); 
+    transform: translate(153px, 38px); 
     opacity: 1;   
   }
-
   81%{
-    transform: translate(67px, 100px); 
-    opacity: 0;   
-  }
-  85%{
-    transform: translate(153px, 38px); 
-    opacity: 0;   
-  }
-  90%{
-    transform: translate(153px, 38px); 
-    opacity: 1;   
-  }
-  91%{
     transform: translate(153px, 38px); 
     opacity: 0;   
   }
 
-  95%{
+  85%{
     transform: translate(187px, 110px); 
     opacity: 0;   
   }
   /* Tercera Bajada */
-  97%{
+  87%{
     transform: translate(187px, 110px); 
     opacity: 1;   
   }
 
+  90%{
+    transform: translate(187px, 110px); 
+    opacity: 0;   
+  }
+
+  97%{
+    transform: translate(243px, 30px); 
+    opacity: 0;   
+  }
 
 
   100% {
@@ -153,7 +170,7 @@ header{
   animation-name: appear;
   animation-duration: 3s;
   animation-timing-function: linear;
-  animation-delay: 1.7s;
+  animation-delay: 11.7s;
   animation-fill-mode: forwards;
 }
 
@@ -196,7 +213,6 @@ header{
   }
 }
 
-
 .canoa_es2 {
   position: absolute;
   opacity: 1;
@@ -235,7 +251,7 @@ header{
   animation-name: closer;
   animation-duration: 10s;
   animation-timing-function: linear;
-  animation-delay: 1.7s;
+  animation-delay: 20.7s;
   animation-fill-mode: forwards;
 }
 
@@ -266,7 +282,7 @@ header{
   animation-name: closerimg;
   animation-duration: 5s;
   animation-timing-function: linear;
-  animation-delay: 1.7s;
+  animation-delay: 21.7s;
   animation-fill-mode: forwards;
 }
 
@@ -301,7 +317,7 @@ header{
 
   animation-name: appimg;
   animation-duration: 3s;
-  animation-delay: 8s;
+  animation-delay: 28s;
   animation-fill-mode: forwards;
 }
 
@@ -332,12 +348,17 @@ header{
   animation-name: appear;
   animation-duration: 3s;
   animation-timing-function: linear;
-  animation-delay: 1.7s;
+  animation-delay: 30.7s;
   animation-fill-mode: forwards;
 }
 
 .box4 img {
   height: 230px;
+}
+
+.msg4 {
+  position: absolute;
+  left: 30px;
 }
 
 .canoasola {
@@ -348,7 +369,7 @@ header{
   animation-name: crash;
   animation-duration: 4s;
   animation-timing-function: linear;
-  animation-delay: 1.7s;
+  animation-delay: 30.7s;
   animation-fill-mode: forwards;
 }
 
@@ -374,9 +395,9 @@ header{
   opacity: 0;
 
   animation-name: appcrash;
-  animation-duration: 4s;
+  animation-duration: 5s;
   animation-timing-function: cubic-bezier(.15,.79,.96,.68);
-  animation-delay: 5.5s;
+  animation-delay: 34.5s;
   animation-fill-mode: backwards; 
 }
 
@@ -385,6 +406,9 @@ header{
     opacity: 0;  
   }
   20%{
+    opacity: 1;
+  }
+  70%{
     opacity: 1;
   }
   100%{
@@ -400,7 +424,7 @@ header{
   animation-name: appcrash;
   animation-duration: 4s;
   animation-timing-function: cubic-bezier(.15,.79,.96,.68);
-  animation-delay: 5.5s;
+  animation-delay: 38.5s;
   animation-fill-mode: backwards;
 }
 
@@ -412,7 +436,7 @@ header{
   animation-name: appcrash;
   animation-duration: 4s;
   animation-timing-function: cubic-bezier(.15,.79,.96,.68);
-  animation-delay: 7.5s;
+  animation-delay: 38.5s;
   animation-fill-mode: backwards;
 }
 
@@ -424,7 +448,7 @@ header{
   animation-name: appcrash;
   animation-duration: 4s;
   animation-timing-function: cubic-bezier(.15,.79,.96,.68);
-  animation-delay: 7.5s;
+  animation-delay: 39.5s;
   animation-fill-mode: backwards;
 }
 
@@ -436,7 +460,7 @@ header{
   animation-name: appear;
   animation-duration: 3s;
   animation-timing-function: linear;
-  animation-delay: 1.7s;
+  animation-delay: 43.7s;
   animation-fill-mode: forwards;
 }
 
@@ -465,7 +489,7 @@ header{
   animation-name: sorprise;
   animation-duration: 4s;
   animation-timing-function: linear;
-  animation-delay: 5.7s;
+  animation-delay: 47.7s;
   animation-fill-mode: forwards;
 }
 
@@ -478,7 +502,7 @@ header{
   animation-name: sorprise;
   animation-duration: 4s;
   animation-timing-function: linear;
-  animation-delay: 5.7s;
+  animation-delay: 47.7s;
   animation-fill-mode: forwards;
 }
 
