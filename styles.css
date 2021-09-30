@@ -3,9 +3,12 @@
   margin: 0;
   padding: 0;
 }
+
 html{
   font-size: 62.5%;
 }
+
+
 header{
   padding-top: 33px;
   text-align: center;
@@ -13,6 +16,7 @@ header{
   font-size: 3em;
   display: block;
 }
+
 
 .container {
   align-items: center;
@@ -28,6 +32,7 @@ header{
   flex: 1 2 47%;
   max-width: 1100px;
   min-width: 300;
+  
 }
 
 .box {
@@ -565,6 +570,10 @@ header{
 .box7 {
   flex-grow: 1;
   opacity: 0;
+  position: relative;
+  min-height: 433px;
+  top: 30px;
+  bottom: 70px;
 
   animation-name: appear;
   animation-duration: 3s;
@@ -588,4 +597,28 @@ header{
   animation-timing-function: linear;
   animation-delay: 59.7s;
   animation-fill-mode: forwards;
+}
+
+.monjesito_es7  {
+  position: absolute;
+  top: 133px;
+  height: 300px;
+  width: 300px;
+}
+
+.monjesito_es7 .monjesinojitos_es7 {
+  position: absolute;
+  top: 33px;
+  height: 330px;
+}
+
+.monjesito_es7 .ojitos_es7 {
+  position: absolute;
+  top: 105px;
+  left: 379px;
+  height: 43px;
+
+  animation-name: blink;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
