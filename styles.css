@@ -578,10 +578,8 @@ header{
   animation-name: appear;
   animation-duration: 3s;
   animation-timing-function: linear;
-  animation-delay: 1.7s;
+  animation-delay: 58.7s;
   animation-fill-mode: forwards;
-
-  border: 2px solid red;
 }
 
 .pensamiento3 img {
