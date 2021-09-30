@@ -622,3 +622,13 @@ header{
   animation-duration: 4s;
   animation-iteration-count: infinite;
 }
+
+footer {
+  top: 70px;
+  bottom: 70px;
+  text-align: right;
+  padding: 33px;
+  font-size: 3em;
+  color: rgb(49, 11, 87);
+  text-shadow: rgb(139, 138, 138) 0.1em 0.1em 0.2em
+}
